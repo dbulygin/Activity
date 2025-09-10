@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="otus.gpb.homework.activities.sender.SenderActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="SenderActivity"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonGoogleMaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="To Google Maps"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/buttonSendEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Send Email"
+        app:layout_constraintEnd_toEndOf="@+id/buttonGoogleMaps"
+        app:layout_constraintStart_toStartOf="@+id/buttonGoogleMaps"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGoogleMaps" />
+
+    <Button
+        android:id="@+id/buttonOpenReciever"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Open Reciever"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSendEmail"
+        app:layout_constraintStart_toStartOf="@+id/buttonSendEmail"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSendEmail" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
