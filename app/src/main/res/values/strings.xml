@@ -1,4 +1,17 @@
 <resources>
-    <string name="app_name">Activities</string>
+    <string name="app_name">Profile Sender</string>
     <string name="title_send">Отправить</string>
+    <string name="textview_name">Имя</string>
+    <string name="textview_surname">Фамилия</string>
+    <string name="textview_age">Возраст</string>
+    <string name="button_edit_profile">Редактировать профиль</string>
+    <string name="dialog_title">Title</string>
+    <string name="supporting_text">Работа с камерой</string>
+    <string name="takePhoto">Сделать фото</string>
+    <string name="selectPhoto">Выбрать фото</string>
+    <string name="hint_edittext_name">Имя</string>
+    <string name="hint_edittext_surname">Фамилия</string>
+    <string name="hint_edittext_age">Возраст</string>
+    <string name="button_apply">Применить</string>
+    <string name="title_view_profile">Заполните все поля</string>
 </resources>

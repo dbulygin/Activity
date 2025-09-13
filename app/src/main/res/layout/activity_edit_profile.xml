@@ -35,8 +35,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
-        android:hint="Имя"
-        android:textSize="18dp"
+        android:hint="@string/textview_name"
+        android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/imageview_photo"
         app:layout_constraintTop_toTopOf="@+id/imageview_photo" />
 
@@ -44,9 +44,9 @@
         android:id="@+id/textview_surname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:hint="Фамилия"
-        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/textview_surname"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/textview_name"
         app:layout_constraintTop_toBottomOf="@+id/textview_name" />
 
@@ -54,9 +54,9 @@
         android:id="@+id/textview_age"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:hint="Возраст"
-        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/textview_age"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/textview_surname"
         app:layout_constraintTop_toBottomOf="@+id/textview_surname" />
 
@@ -65,8 +65,8 @@
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Редактировать профиль"
+        android:layout_marginTop="20dp"
+        android:text="@string/button_edit_profile"
         app:layout_constraintStart_toStartOf="@+id/textview_age"
         app:layout_constraintTop_toBottomOf="@+id/textview_age" />
 
